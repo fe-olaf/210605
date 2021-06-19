@@ -1,9 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import ResetCSS from './components/shared/reset-css'
 
-import WetboonEditor from './components/edit/webtoon-editor'
+import WebtoonEditPage from './pages/edit'
+import WebtoonHomePage from './pages/webtoon-home'
+import WebtoonChallengePage from './pages/webtoon-challenge'
+import WebtoonWeekdayPage from './pages/webtoon-weekday'
+import HomePage from './pages/home'
+import SigninPage from './pages/signin'
 
 const Container = styled.div`
   max-width: 720px;
@@ -18,7 +24,29 @@ function App() {
   return (
     <Container>
       <ResetCSS />
-      <WetboonEditor />
+
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route exact path="/webtoon">
+            <WebtoonHomePage />
+          </Route>
+          <Route path="/webtoon/weekday">
+            <WebtoonWeekdayPage />
+          </Route>
+          <Route path="/webtoon/challenge">
+            <WebtoonChallengePage />
+          </Route>
+          <Route path="/webtoon/edit">
+            <WebtoonEditPage />
+          </Route>
+          <Route path="/signin">
+            <SigninPage />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </Container>
   )
 }
