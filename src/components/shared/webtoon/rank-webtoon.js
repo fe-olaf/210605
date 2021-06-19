@@ -1,6 +1,7 @@
 import React from 'react'
+import styled from 'styled-components'
 
-function Webtoon() {
+function RankWebtoon() {
   return (
     <div>
       <img />
@@ -11,4 +12,4 @@ function Webtoon() {
   )
 }
 
-export default Webtoon
+export default RankWebtoon
