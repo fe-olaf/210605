@@ -1,6 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import EditPage from './pages/edit'
+import App from './app'
 
-ReactDOM.render(<EditPage />, document.getElementById('app'))
+/**
+ * 프로젝트 설정의 최상위
+ */
+
+ReactDOM.render(<App />, document.getElementById('app'))

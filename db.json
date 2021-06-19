@@ -1,0 +1,56 @@
+{
+  "webtoons": [
+    {
+      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "author": "이상규",
+      "description": "신비한 힘을 가진 아이를 이용하여 세상을 지배하려는 반인반수 흰눈썹! 그리고 얼떨결에 아이의 보호자가 된 괴물호랑이 빠르와 착호갑사 지망생 가우리! 이제 힘을 합쳐 흰눈썹으로부터 아이와 세상을 지켜라!!!",
+      "imageUrl": "https://image-comic.pstatic.net/webtoon/650305/thumbnail/title_thumbnail_20150317180557_t217x165.jpg",
+      "title": "호랑이형님",
+      "isUpdate": true
+    },
+    {
+      "id": "edf44e0a-2c73-442d-9d11-3ca79cf6865d",
+      "title": "모죠의 일지",
+      "author": "모죠",
+      "description": "모죠의 일지",
+      "imageUrl": "https://image-comic.pstatic.net/webtoon/728015/thumbnail/thumbnail_IMAG19_eefd3fab-24d0-4734-a4e7-d9cdd3de742b.jpg",
+      "isUpdate": false
+    },
+    {
+        "id":"edf44e0a-2c73-442d-9d11-3ca79cf6265d",
+        "title": "외모지상주의",
+        "imageUrl": "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F641253%2Fthumbnail%2Ftitle_thumbnail_20150323150624_t220x202.jpg%22&type=f220_138&service=navermain",
+        "author": "박태준",
+        "isUpdate": false
+      },
+      {
+        "id": "edf44e0a-2c73-542d-9d11-3ca79cf6865d",
+        "title": "관계의종말",
+        "imageUrl": "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F752803%2Fthumbnail%2Fthumbnail_IMAG19_b796561c-fe2d-4594-a4df-e7b22dd1a8b3.jpg%22&type=f220_138&service=navermain",
+        "author": "김용키",
+        "isUpdate": false
+      },
+      {
+        "id":"edf44d0a-2c73-442d-9d11-3ca79cf6865d",
+        "title": "이두나",
+        "imageUrl": "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F731130%2Fthumbnail%2Fthumbnail_IMAG19_b53ffd0d-3f3d-4a9a-a6a7-0a1dd0313d19.jpg%22&type=f220_138&service=navermain",
+        "author": "민송이",
+        "isUpdate": false
+      },
+      {
+        "id": "adf44e0a-2c73-442d-9d11-3ca79cf6865d",
+        "title": "기기괴괴",
+        "imageUrl": "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F557672%2Fthumbnail%2Fthumbnail_IMAG19_f4e1a72f-f868-43ce-aea0-0486d1d3ee31.jpg%22&type=f220_138&service=navermain",
+        "author": "오성대",
+        "isUpdate": true
+      },
+      {
+        "id": "edf44e0a-2c73-442d-9d21-3ca79cf6865d",
+        "title": "선의의경쟁",
+        "imageUrl": "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F748069%2Fthumbnail%2Fthumbnail_IMAG19_9854a59c-e436-4677-99f7-b92b0f135f6e.jpg%22&type=f220_138&service=navermain",
+        "author": "송채윤/심재영",
+        "isUpdate": true
+      }
+  ],
+  "users": []
+}
