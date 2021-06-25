@@ -4,6 +4,10 @@ import styled from 'styled-components'
 import ListWebtoon from '../shared/webtoon/list-webtoon'
 
 const Container = styled.div``
+const WebtoonContainer = styled.div`
+  width: 33.3%;
+  float: left;
+`
 
 function Webtoons() {
   const [webtoons, setWebtoons] = useState([])
@@ -29,7 +33,9 @@ function Webtoons() {
   return (
     <Container>
       {webtoons.map((webtoon) => (
-        <ListWebtoon key={webtoon.id} webtoon={webtoon} width="33.3%" />
+        <WebtoonContainer key={webtoon.id}>
+          <ListWebtoon webtoon={webtoon} />
+        </WebtoonContainer>
       ))}
     </Container>
   )

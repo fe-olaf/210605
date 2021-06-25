@@ -6,6 +6,8 @@ import { ROUTES } from '../../../constants'
 
 const Container = styled.div`
   display: inline-block;
+  vertical-align: top;
+
   ${({ width }) => width && `width: ${width};`}
 `
 

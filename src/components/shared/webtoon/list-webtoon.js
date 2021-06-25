@@ -7,9 +7,6 @@ import { ROUTES } from '../../../constants'
 const Container = styled.div`
   padding-bottom: 14px;
   width: 100%;
-  float: left;
-
-  ${({ width }) => width && `width: ${width};`}
 `
 
 const ThumbnailContainer = styled.div`
