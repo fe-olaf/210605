@@ -53,5 +53,9 @@
       }
   ],
   "new": [],
-  "users": []
+  "users": [{
+    "id": 0,
+    "email": "olaf@gmail.com",
+    "password": "1234"
+  }]
 }

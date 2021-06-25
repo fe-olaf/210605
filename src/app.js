@@ -11,6 +11,8 @@ import WebtoonWeekdayPage from './pages/webtoon-weekday'
 import HomePage from './pages/home'
 import SigninPage from './pages/signin'
 
+import { UserContextProvider } from './contexts/user-context'
+
 import { ROUTES } from './constants'
 
 const Container = styled.div`
@@ -27,28 +29,30 @@ function App() {
     <Container>
       <ResetCSS />
 
-      <BrowserRouter>
-        <Switch>
-          <Route exact path={ROUTES.HOME}>
-            <HomePage />
-          </Route>
-          <Route exact path={ROUTES.WEBTOON_HOME}>
-            <WebtoonHomePage />
-          </Route>
-          <Route path={ROUTES.WEBTOON_WEEKDAY}>
-            <WebtoonWeekdayPage />
-          </Route>
-          <Route path={ROUTES.WEBTOON_CHALLENGE}>
-            <WebtoonChallengePage />
-          </Route>
-          <Route path={ROUTES.WEBTOON_EDIT}>
-            <WebtoonEditPage />
-          </Route>
-          <Route path={ROUTES.SIGNIN}>
-            <SigninPage />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <UserContextProvider>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path={ROUTES.HOME}>
+              <HomePage />
+            </Route>
+            <Route exact path={ROUTES.WEBTOON_HOME}>
+              <WebtoonHomePage />
+            </Route>
+            <Route path={ROUTES.WEBTOON_WEEKDAY}>
+              <WebtoonWeekdayPage />
+            </Route>
+            <Route path={ROUTES.WEBTOON_CHALLENGE}>
+              <WebtoonChallengePage />
+            </Route>
+            <Route path={ROUTES.WEBTOON_EDIT}>
+              <WebtoonEditPage />
+            </Route>
+            <Route path={ROUTES.SIGNIN}>
+              <SigninPage />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </UserContextProvider>
     </Container>
   )
 }
