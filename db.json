@@ -52,6 +52,34 @@
         "isUpdate": true
       }
   ],
-  "new": [],
-  "users": []
+  "new": [{
+    "id": "ezf44e0a-2c73-442d-9d21-3ca79cf6865d",
+    "title": "팬시X팬시",
+    "imageUrl": "https://image-comic.pstatic.net/webtoon/773475/thumbnail/thumbnail_IMAG19_e77ccd5e-c8e1-4d96-a6f1-aa6e49c9a039.jpg",
+    "author": "인미",
+    "description": "어렸을 적부터 '팬시' 덕후로 살아온 한백지, 자신만의 팬시를 만들기 위해 팬시 디자이너가 되었다! 그러나 현실은 노답... 팬시 디자이너만 되면 좋아하는 건 뭐든 다 만들 것 같았는데.  현실과 타협하면서 점점 꿈을 잃어가는 백지는, 온스타그램에서 너무나 좋아하는 '도토리라떼'의 그림을 보며 하루하루 힐링한다.  어느 날, 회사에 잘 생기고 일 못하는 신입 후배가 들어온다.  어쩌다 그가 바로 자신에게 늘 영감을 주었던 '도토리라테'라는 걸 알고 놀라는 백지!  이제 드디어 그녀는 '도토리라테'와 함께 새로운 도전을 하기 시작하는데...",
+    "isUpdate": true
+  },
+  {
+    "id": "eze44e0a-2c73-442d-9d21-3ca79cf6865d",
+    "title": "인민용사",
+    "imageUrl": "https://image-comic.pstatic.net/webtoon/773916/thumbnail/thumbnail_IMAG19_2be14752-d7df-40d2-bb33-c80c18a21eb7.jpg",
+    "author": "신만이",
+    "description": "전역하기 3일 전 어이없는 사고로 죽어버린 말년 병장. 갑자기 이세계로 떠나라는 현실을 받아들이지 못하고 난리를 치다 맨몸으로 이세계에 떨어지는 벌을 받게 된다. 말년 병장의 눈물겨운 밀리터리 생존 판타지!",
+    "isUpdate": true
+  },
+  {
+    "id": "ezf44e0a-2c70-442d-9d21-3ca79cf6865d",
+    "title": "도깨비고개",
+    "imageUrl": "https://image-comic.pstatic.net/webtoon/774087/thumbnail/thumbnail_IMAG19_105d2e62-4c6f-435e-a2d0-94c072d6a46e.jpg",
+    "author": "이뫄",
+    "description": "낙엽 사이의 붉은 보석과 여름 햇살로 사라진 친구. 꽃봉오리 속 비밀을 숨긴 이와 첫눈을 기다리던 남자. 이들이 원하는 건 나일까, 나를 죽이는 것일까. 뒤섞인 계절들로 이어지는 네 가지의 단편 이야기.",
+    "isUpdate": false
+  }],
+  "users": [{
+    "id": 0,
+    "email": "olaf@gmail.com",
+    "password": "1234",
+    "name": "올라프"
+  }]
 }

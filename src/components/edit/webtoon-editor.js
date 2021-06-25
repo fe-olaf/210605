@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import styled, { css } from 'styled-components'
 import { v4 as uuidv4 } from 'uuid'
 
-const bold = css`
-  font-weight: bold;
-`
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
