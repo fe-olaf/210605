@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
 
 import ListWebtoon from '../shared/webtoon/list-webtoon'
+
+const Container = styled.div``
 
 function Webtoons() {
   const [webtoons, setWebtoons] = useState([])
@@ -24,11 +27,11 @@ function Webtoons() {
   }, [])
 
   return (
-    <div>
+    <Container>
       {webtoons.map((webtoon) => (
-        <ListWebtoon key={webtoon.id} webtoon={webtoon} />
+        <ListWebtoon key={webtoon.id} webtoon={webtoon} width="33.3%" />
       ))}
-    </div>
+    </Container>
   )
 }
 
