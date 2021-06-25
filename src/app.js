@@ -28,7 +28,6 @@ function App() {
   return (
     <Container>
       <ResetCSS />
-
       <UserContextProvider>
         <BrowserRouter>
           <Switch>
