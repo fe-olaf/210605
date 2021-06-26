@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+
+import { ROUTES } from '../constants'
 
 /**
  * / 로 들어왔을때 보여질 페이지
@@ -23,6 +27,16 @@ import React from 'react'
  * - 라이프사이클을 흉내낼 수 있게되었다.
  */
 
+const DAY_OF_WEEK = ['일', '월', '화', '수', '목', '금', '토']
+
 export default function HomePage() {
-  return <div>HomePage</div>
+  const weekdayLabel = `${DAY_OF_WEEK[new Date().getDay()]}요웹툰`
+
+  return (
+    <div>
+      <Link to={ROUTES.WEBTOON_HOME}>웹툰홈</Link>
+      <Link to={ROUTES.WEBTOON_WEEKDAY}>{weekdayLabel}</Link>
+      <Link to={ROUTES.WEBTOON_CHALLENGE}>베스트도전</Link>
+    </div>
+  )
 }
