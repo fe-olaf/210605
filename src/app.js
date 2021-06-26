@@ -10,6 +10,7 @@ import WebtoonChallengePage from './pages/webtoon-challenge'
 import WebtoonWeekdayPage from './pages/webtoon-weekday'
 import HomePage from './pages/home'
 import SigninPage from './pages/signin'
+import { ROUTES } from './constants'
 
 const Container = styled.div`
   max-width: 720px;
@@ -27,22 +28,22 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
+          <Route exact path={ROUTES.HOME}>
             <HomePage />
           </Route>
-          <Route exact path="/webtoon">
+          <Route exact path={ROUTES.WEBTOON_HOME}>
             <WebtoonHomePage />
           </Route>
-          <Route path="/webtoon/weekday">
+          <Route path={ROUTES.WEBTOON_WEEKDAY}>
             <WebtoonWeekdayPage />
           </Route>
-          <Route path="/webtoon/challenge">
+          <Route path={ROUTES.WEBTOON_CHALLENGE}>
             <WebtoonChallengePage />
           </Route>
-          <Route path="/webtoon/edit">
+          <Route path={ROUTES.WEBTOON_EDIT}>
             <WebtoonEditPage />
           </Route>
-          <Route path="/signin">
+          <Route path={ROUTES.SIGNIN}>
             <SigninPage />
           </Route>
         </Switch>
